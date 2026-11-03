@@ -1,9 +1,9 @@
 # Gold pending orders state
 (memory tools unavailable; state kept in repo)
-## Last issued: 2026-11-03 07:10 Muscat (price 3945.18)
-- 2611022210A SELL_LIMIT 3990.00 | SL 4017.00 | T1 3945.00 | T2 3900.00 | cancel if 1h closes above 4020 or news breaks structure | expiry 2026-11-03 13:00 Muscat (09:00Z) | pending | judge approved conf 6/10, votes 4 for/0 against/4 neutral
-- 2611030108A BUY_LIMIT 3915.00 | SL 3889.00 | T1 3970.00 | T2 3998.00 | cancel if 1h closes below 3890 or news breaks structure | expiry 2026-11-03 13:00 Muscat (09:00Z) | pending | judge weak conf 5/10, votes 3 for/2 against/3 neutral
-- 2611022210B BUY (was BUY_LIMIT 3942.00) FILLED ~00:15 Muscat (low 3938.25) | SL 3922.00 | T1 3975.00 | T2 4005.00 | filled-open | at analysis price 3945.18 (+3.18; high since fill 3963.77, low 3938.25) | close 50% at T1 and move SL to entry
+## Last issued: 2026-11-03 10:12 Muscat (price 3922.02)
+- 2611031010A SELL_LIMIT 3950.00 | SL 3977.00 | T1 3908.00 | T2 3880.00 | cancel if 1h closes above 3972 or news breaks structure | expiry 2026-11-03 14:00 Muscat (10:00Z) | pending | judge approved conf 5/10, votes 4 for/0 against/4 neutral
+- 2611030108A BUY_LIMIT 3903.00 (modified from 3915.00) | SL 3885.00 | T1 3931.00 | T2 3955.00 | cancel if 1h closes below 3885 or news breaks structure | expiry 2026-11-03 14:00 Muscat (10:00Z) | pending | judge weak conf 4/10, votes 3 for/2 against/3 neutral
+- closed: 2611022210B BUY 3942 stopped out at SL 3922 (~08:00 Muscat, -20); 2611022210A SELL_LIMIT 3990 cancelled (too far, replaced by 2611031010A)
 - cancelled previously: 2611020410A
-- news: US midterms Nov 3 (results overnight Nov 3-4, Muscat early Nov 4); JOLTS Nov 3 ~15:00Z medium (unconfirmed; orders expire 09:00Z, before any window); ISM Services/ADP Wed Nov 4; NFP Fri 2026-11-06 (exact times unconfirmed). No high-impact scheduled release inside the next 6h.
-- note: Twelve Data stamps UTC+11; 1D EMA50 4127.64, EMA200 4239.88; ATR1h 11.79, ATR4h 19.76; RSI1h 58.06; MACD1h 13.16/sig 14.92/hist -1.76 (bearish cross); reopen low 3866.02 then rally to 3969.99 (Mon 20:30 Muscat); Friday drop 4030->3871; supply 3990-4010; demand 3901-3915 and 3929-3945; EURUSD 1.1185 (-0.09%), UUP 28.96 (-0.14%, closed); XAG/TLT not fetched; macro: bears dominate, ~75% Dec hike pricing per FXStreet.
+- news: US midterms Nov 3 (results overnight Nov 3-4, Muscat early Nov 4); JOLTS Nov 3 ~15:00Z medium (unconfirmed; 19:00 Muscat); ISM Services/ADP Wed Nov 4; NFP Fri 2026-11-06 (times unconfirmed). No high-impact scheduled release inside the next 6h.
+- note: Twelve Data stamps UTC+11; 1D EMA50 4127.64, EMA200 4239.88 (from previous run); 1h EMA50 3920.09; ATR1h 12.41, ATR4h ~19.8 (prev); RSI1h 46.63; MACD1h 5.21/sig 10.83/hist -5.62 (bearish); day high 3963.77 (Mon 3969.99 high), low 3916.45; Mon consolidation 3898-3907, reopen low 3866.02; supply 3950-3970 and 3990-4010; demand 3898-3907; EURUSD 1.1195 (flat), UUP 28.96 (closed, -0.14%); XAG/TLT not fetched; macro: bears dominate, ~75-85% Dec hike pricing.

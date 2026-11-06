@@ -1,7 +1,8 @@
 # Gold pending orders state
 (memory tools unavailable; state kept in repo)
-## Last issued: 2026-11-06 04:25 Muscat (price 4095.66)
-- 2611052206A BUY_LIMIT 4080.00, SL 4064.50, T1 4105.00, T2 4126.00; FILLED ~03:15 Muscat (low 4068.93), filled-open; cancel/close if 1h closes below 4064 ; close before NFP window 15:30 Muscat if not at target; judge approved 5/10 (4 for/1 against/3 neutral)
-- 2611052206B SELL_LIMIT 4126.00, SL 4140.00, T1 4105.00, T2 4084.00; cancel if 1h closes above 4135 before fill; expiry 2026-11-06 15:30 Muscat (11:30Z); pending (modified: expiry extended); judge weak 4/10 (votes 3 for/1 against/4 neutral)
-- news: NFP Fri 2026-11-06 17:30 Muscat (stop window 15:30-19:30); no high-impact event in next 6h (calendar not confirmed by web search; NFP time from earlier note).
-- note: 04:25 ATR1h 20.18, ATR4h 34.15, RSI1h 51.1, RSI4h 63.3; range since 01:10 4068.93-4098.53; Asian range 4068.93-4127.80; 1D EMA50 4122.77, EMA200 4235.73 (earlier); demand 4069-4080, supply 4126-4147; EMA/MACD/correlation not refetched (Twelve Data rate limit). Twelve Data stamps UTC+11 (Muscat = stamp - 7h).
+## Last issued: 2026-11-06 07:10 Muscat (price 4063.03)
+- 2611060706A SELL_LIMIT 4094.00, SL 4117.00, T1 4050.00, T2 4025.00; cancel if 1h closes above 4110 before fill; expiry 2026-11-06 15:30 Muscat (11:30Z); pending; judge approved 5/10 (4 for/1 against/3 neutral)
+- 2611060706B BUY_LIMIT 4038.00, SL 4019.50, T1 4066.00, T2 4095.00; cancel if 1h closes below 4030 before fill; expiry 2026-11-06 15:30 Muscat (11:30Z); pending; judge weak 4/10 (3 for/2 against/3 neutral)
+- closed: 2611052206A BUY_LIMIT 4080 filled, stopped out at 4064.50 (~-15.5 pts); 2611052206B SELL_LIMIT 4126 cancelled (63 pts away, structure broken)
+- news: NFP Fri 2026-11-06 17:30 Muscat (stop window 15:30-19:30); no other high-impact event before it.
+- note: 07:06 ATR1h 20.33, RSI1h 40.4; 1D EMA50 4121.03; EMA200/MACD/correlation not refetched (Twelve Data rate limit). Day range 4057.86-4115.82; prev day 4056.94-4147.60; supply 4094-4107, 4126-4147; demand 4029-4049. Twelve Data stamps UTC+11 (Muscat = stamp - 7h).
